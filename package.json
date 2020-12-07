@@ -1,0 +1,29 @@
+{
+  "name": "typescript-tests-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kltb/Typescript-Tests-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kltb/Typescript-Tests-Testing/issues"
+  },
+  "homepage": "https://github.com/kltb/Typescript-Tests-Testing#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.4",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.0"
+  }
+}
